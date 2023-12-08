@@ -95,15 +95,3 @@ and open a shell in the container  using:
 once the shell opens, test the ansible instance using:
 
 `ansible --version`
-
-## Step 5 - Copy included configuration files to Docker Container
-
-Copy the provided `hosts` file to the `/etc/ansible` directory using `docker cp`
-
-`docker cp hosts <CONTAINER NAME>:/etc/ansible`
-
-
-
-
-
-``
