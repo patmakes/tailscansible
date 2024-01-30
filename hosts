@@ -19,9 +19,9 @@
 
 [webservers]
 #10.0.0.5 ansible_python_interpreter=/usr/bin/python3 ansible_ssh_private_key_fi
-le=/root/.ssh/Skelly
+le=/root/.ssh/<Key Name>
 #10.0.0.6 ansible_python_interpreter=/usr/bin/python3 ansible_ssh_private_key_fi
-le=/root/.ssh/Skelly
+le=/root/.ssh/<Key Name>
 [siem]
 [endpointmac]
 [endpointwin]
